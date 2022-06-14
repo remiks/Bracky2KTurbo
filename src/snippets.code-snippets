@@ -16,5 +16,14 @@
 			"[$1]"
 		],
 		"description": "Square Brackets."
+	},
+	"Square Brackets": {
+		"prefix": [
+			"angle"
+		],
+		"body": [
+			"<$1>"
+		],
+		"description": "Angle Brackets."
 	}
 }
