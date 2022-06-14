@@ -7,6 +7,10 @@ on:
     branches: [ "main" ]
 
 jobs:
+  pre:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "What is the purpose?"
   build:
     if: github.event_name == 'pull_request' && github.event.action == 'closed'
       runs-on: ubuntu-latest
