@@ -1,0 +1,3 @@
+# Bracky 2K Turbo
+Snippets for inserting square brackets (brac) and curlies (curl).
+Norwegian developers using fruit machines will know...

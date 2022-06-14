@@ -1,0 +1,23 @@
+{
+	"name": "Bracky2KTurbo",
+	"displayName": "Bracky 2K Turbo",
+	"description": "Insert Brackets and Curlies (Norwegian developers using fruit machines will know...)",
+	"version": "0.0.1",
+	"publisher": "techis",
+	"repository": "https://github.com/olebru/Bracky2KTurbo",
+	"license": "MIT",
+	"icon": "media/techis_128.png",
+	"engines": {
+		"vscode": "^1.28.0"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"path": "./src/snippets.code-snippets"
+			}
+		]
+	}
+}

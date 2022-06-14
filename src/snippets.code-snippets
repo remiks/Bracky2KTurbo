@@ -1,0 +1,20 @@
+{
+	"Brackets": {
+		"prefix": [
+			"curl"
+		],
+		"body": [
+			"{\n\t$1\n}"
+		],
+		"description": "Brackets."
+	},
+	"Square Brackets": {
+		"prefix": [
+			"brac"
+		],
+		"body": [
+			"[$1]"
+		],
+		"description": "Square Brackets."
+	}
+}
