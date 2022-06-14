@@ -25,5 +25,15 @@
 			"<$1>"
 		],
 		"description": "Angle Brackets."
+	},
+	"Bendy Brackets": {
+		"prefix": [
+			"bendy"
+		],
+		"body": [
+			"($1)"
+		],
+		"description": "Bendy Brackets."
 	}
 }
+
