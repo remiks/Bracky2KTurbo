@@ -14,8 +14,10 @@ jobs:
   publish:
     if: github.event_name == 'push'
     runs-on: ubuntu-latest
+    env:
+      PAT: ${{ secrets.MARKETPLACE_PAT }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
       - run: npm install -g vsce
-      - run: vsce publish -p ${{ secrets.MARKETPLACE_PAT }}
+      - run: vsce publish -p "$PAT"
