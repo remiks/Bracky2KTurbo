@@ -34,6 +34,14 @@
 			"($1)"
 		],
 		"description": "Bendy Brackets."
+	},
+	"Pipe": {
+		"prefix": [
+			"pipe"
+		],
+		"body": [
+			"|$1"
+		],
+		"description": "Pipe."
 	}
 }
-
