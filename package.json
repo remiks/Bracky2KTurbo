@@ -2,7 +2,7 @@
 	"name": "Bracky2KTurbo",
 	"displayName": "Bracky 2K Turbo",
 	"description": "Insert Brackets and Curlies (Norwegian developers using fruit machines will know...)",
-	"version": "0.0.6",
+	"version": "0.0.7",
 	"publisher": "techis",
 	"repository": "https://github.com/olebru/Bracky2KTurbo",
 	"license": "MIT",
@@ -21,6 +21,3 @@
 		]
 	}
 }
-
-
-
