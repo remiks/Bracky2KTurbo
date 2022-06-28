@@ -43,5 +43,30 @@
 			"|$1"
 		],
 		"description": "Pipe."
+	},
+	"Demo will be removed": {
+		"prefix": "ft.managed.tenant.example1",
+		"body": [
+			"",
+			"provider \"azurerm\" {",
+			"  features {",
+			"    key_vault {",
+			"      purge_soft_delete_on_destroy = false",
+			"    }",
+			"  }",
+			"  skip_provider_registration = ${1|false,true|}",
+			"  subscription_id            = \"${2:subscription_id}\"",
+			"  alias                      = \"${3:landingsone_alias}\"",
+			"}",
+			"",
+			"module \"${3:landingsone_alias}\" {",
+			"  source = \"../Landing zones/${4:landingsone_module_folder}\"",
+			"",
+			"  providers = {",
+			"    azurerm = azurerm.${3:landingsone_alias}",
+			"  }",
+			"}",
+			""
+		]
 	}
 }
