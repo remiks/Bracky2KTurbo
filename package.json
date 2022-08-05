@@ -6,7 +6,7 @@
 	"publisher": "techis",
 	"repository": "https://github.com/olebru/Bracky2KTurbo",
 	"license": "MIT",
-	"icon": "media/techis_128.png",
+	"icon": "./media/techis_128.png",
 	"engines": {
 		"vscode": "^1.28.0"
 	},
