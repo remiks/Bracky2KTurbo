@@ -1,47 +1,47 @@
 {
 	"Brackets": {
 		"prefix": [
-			"curl"
+			"curl", "turbo.curl"
 		],
 		"body": [
 			"{\n\t$1\n}"
 		],
-		"description": "Brackets."
+		"description": "Brackets, like this: {} ."
 	},
 	"Square Brackets": {
 		"prefix": [
-			"brac"
+			"brac", "turbo.brac"
 		],
 		"body": [
 			"[$1]"
 		],
-		"description": "Square Brackets."
+		"description": "Square Brackets, like this: []."
 	},
 	"Angle Brackets": {
 		"prefix": [
-			"angle"
+			"angle", "turbo.angle"
 		],
 		"body": [
 			"<$1>"
 		],
-		"description": "Angle Brackets."
+		"description": "Angle Brackets, like this: <> ."
 	},
 	"Bendy Brackets": {
 		"prefix": [
-			"bendy"
+			"bendy", "turbo bendy"
 		],
 		"body": [
 			"($1)"
 		],
-		"description": "Bendy Brackets."
+		"description": "Bendy Brackets, like this: () ."
 	},
 	"Pipe": {
 		"prefix": [
-			"pipe"
+			"pipe", "turbo.pipe"
 		],
 		"body": [
 			"|$1"
 		],
-		"description": "Pipe."
+		"description": "Pipe, like this: | ."
 	}
 }
