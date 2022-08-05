@@ -5,8 +5,10 @@ Norwegian developers using fruit machines will know...
 ## How to use
 Start by typing "turbo." anywhere in VSCode to use autocomplete. You can also use the commands:
 
-curl or turbo.curl types out: {}
-brac or turbo.brac types out: []
-angle or turbo.angle types out: <>
-bendy or types out: turbo.bendy () 
-pipe or turbo.pipe types out: |
+| Syntax | Description |
+| ----------- | ----------- |
+| `curl or turbo.curl` | Outputs: {} |
+| `brac or turbo.brac` | Outputs: [] |
+| `angle or turbo.angle` | Outputs: <> |
+| `bendy or turbo.bendy` | Outputs: () |
+| `pipe or turbo.pipe` | Outputs: pipe |
